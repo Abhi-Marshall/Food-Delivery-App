@@ -1,0 +1,103 @@
+/* src/components/customerOrder.css */
+
+.customer-order-analytics-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    min-height: 100vh;
+}
+
+.customer-order-analytics-filter-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.customer-order-analytics-filter-buttons button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    background: linear-gradient(45deg, #ff6b6b, #f06595);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.customer-order-analytics-filter-buttons button.active,
+.customer-order-analytics-filter-buttons button:hover {
+    background: linear-gradient(45deg, #4CAF50, #66BB6A);
+    color: white;
+}
+
+.customer-order-analytics-order-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.customer-order-analytics-order-card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.customer-order-analytics-order-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.customer-order-analytics-order-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.customer-order-analytics-order-details {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.customer-order-analytics-order-details h3 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.customer-order-analytics-order-details p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer-order-analytics-order-details strong {
+    color: #333;
+}
+
+.customer-status-gradient {
+    background: linear-gradient(45deg, #660123, #ea0a58);
+    background-clip: text;
+    color: transparent;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.customer-gradient-text {
+    background: linear-gradient(45deg, #660123, #ea0a58);
+    background-clip: text;
+    color: transparent;
+    font-size: larger;
+    font-weight: bold;
+}

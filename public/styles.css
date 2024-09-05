@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title {
+    background-image: url("../src/images/title-background.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+}
+
+#title-opacity {
+    position: absolute;
+    top: 0;
+    background-color: black;
+    opacity: 0.29;
+    width: 100%;
+    height: 100%;
+}
+
+.title h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    font-style: normal;
+}
+
+@media (max-width: 1100px) {
+    .title h1 {
+        font-size: 2.5rem;
+    }
+
+    .title p {
+        font-size: 0.5rem;
+    }
+}
+
+.title p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+.card-box {
+    margin-top: 10rem;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+#footer-opacity {
+    position: absolute;
+    top: 0;
+    background-color: black;
+    opacity: 0.59;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,110 @@
+.delivery-order-analytics-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    min-height: 100vh;
+  }
+  .delivery-order-analytics-filter-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  .delivery-order-analytics-filter-buttons button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    background: linear-gradient(45deg, #ff6b6b, #f06595);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .delivery-order-analytics-filter-buttons button.active,
+  .delivery-order-analytics-filter-buttons button:hover {
+    background: linear-gradient(45deg, #4CAF50, #66BB6A);
+    color: white;
+  }
+  .delivery-order-analytics-order-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 30px;
+  }
+  .delivery-order-analytics-order-card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .delivery-order-analytics-order-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .delivery-order-analytics-order-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .delivery-order-analytics-order-details {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .delivery-order-analytics-order-details h3 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .delivery-order-analytics-order-details p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .delivery-order-analytics-order-details strong {
+    color: #333;
+  }
+  
+  .delivery-status-gradient {
+    background: linear-gradient(45deg, #660123, #ea0a58);
+    background-clip: text;
+    color: transparent;
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+  .delivery-gradient-text {
+    background: linear-gradient(45deg, #660123, #ea0a58);
+    background-clip: text;
+    color: transparent;
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+  .delivery-order-analytics-mark-delivered {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(45deg, #4CAF50, #66BB6A);
+    color: white;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .delivery-order-analytics-mark-delivered:hover {
+    background: linear-gradient(45deg, #388E3C, #43A047);
+  }
+  

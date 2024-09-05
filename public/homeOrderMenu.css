@@ -1,0 +1,53 @@
+.home-order-menu-container {
+    background: linear-gradient(to right, #0876e4, #e9ecef);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .home-order-menu-card {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Fixed width for each card */
+    height: 400px; /* Fixed height for each card */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .home-order-menu-image {
+    width: 100%;
+    height: 200px; /* Fixed height for each image */
+    object-fit: cover; /* Ensure image covers its container */
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .home-order-menu-button {
+    align-self: center;
+    background-color: #ffc107;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  .home-order-menu-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .home-order-menu-button .text-decoration-none {
+    text-decoration: none;
+  }
+  

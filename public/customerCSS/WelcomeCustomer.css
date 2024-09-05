@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.welcome-customer {
+    background: linear-gradient(to bottom right, #2c3e50, #4ca1af);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.container-fluid-customer {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.manager-header-customer h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.manager-content-customer {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 1200px; /* Adjusted max-width for larger screens */
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.card-container-customer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center-align the cards */
+    gap: 1rem;
+    margin-top: 2rem;
+    max-width: 1200px; /* Limit the container width */
+}
+
+.card-custom-customer {
+    color: #fff;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s;
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4); /* Default gradient */
+    width: 300px; /* Set a fixed width for cards */
+}
+
+.card-custom-customer:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.card-img-top-customer {
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+    height: 200px; /* Adjusted height for card images */
+    width: 100%; /* Ensure the image covers the card width */
+}
+
+.card-body-customer {
+    padding: 1rem;
+}
+
+.card-title-customer {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card-text-customer {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.card-custom-customer:nth-child(2),
+.card-custom-customer:nth-child(5) {
+    background: linear-gradient(45deg, #f35d00, #dbe8e6); /* Different gradient */
+    width: 300px; /* Maintain fixed width for larger cards */
+}
+
+.card-custom-customer:nth-child(3),
+.card-custom-customer:nth-child(6) {
+    background: linear-gradient(45deg, #142222, #00b7ff); /* Different gradient */
+    width: 300px; /* Maintain fixed width for smaller cards */
+}
+
+.card-custom-customer:nth-child(4) {
+    background: linear-gradient(45deg, #0f0e0e, #00c2f2); /* Different gradient */
+    width: 300px; /* Maintain fixed width */
+}
+
+.btn-custom-customer {
+    border: none;
+    color: white;
+    padding: 15px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.btn-custom-customer:hover {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-fish-customer { background: linear-gradient(45deg, #b23327, #d8157d); }
+.btn-chicken-customer { background: linear-gradient(45deg, #66bb6a, #43a047); }
+.btn-egg-customer { background: linear-gradient(45deg, #ffca28, #fbc02d); }
+.btn-paneer-customer { background: linear-gradient(45deg, #ab47bc, #8e24aa); }
+.btn-order-customer { background: linear-gradient(45deg, #1f75ba, #5207c9); }
+.btn-profile-customer { background: linear-gradient(55deg, #127911, #086279); }
+.btn-logout-customer { background: linear-gradient(45deg, #f40b0b, #a24395); }
+
+@media (max-width: 1200px) {
+    .card-custom-customer {
+        width: calc(50% - 1rem); /* Adjust card width for responsive grid */
+    }
+}
+
+@media (max-width: 768px) {
+    .card-custom-customer {
+        width: calc(100% - 1rem); /* Adjust card width for mobile view */
+    }
+
+    .card-container-customer {
+        justify-content: center;
+    }
+}

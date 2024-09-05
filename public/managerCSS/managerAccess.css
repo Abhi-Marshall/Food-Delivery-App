@@ -1,0 +1,80 @@
+.manager-access-container {
+    padding: 20px;
+    color: #333; 
+    text-align: center;
+    background-image: url("../../src/images/managerAccess-bg.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.manager-access-h1 {
+    margin-bottom: 20px;
+    color: #333;
+    background: rgba(114, 108, 108, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.requests-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.request-card {
+    background: rgba(114, 108, 108, 0.1); 
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #fff9f9; 
+}
+
+.request-details {
+    text-align: left;
+    margin-bottom: 20px;
+    color: #ffffff; 
+}
+
+.request-details p {
+    margin: 5px 0;
+    color: #333; 
+}
+
+.request-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.approve-btn, .deny-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.approve-btn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.approve-btn:hover {
+    background-color: #218838;
+}
+
+.deny-btn {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.deny-btn:hover {
+    background-color: #c82333;
+}

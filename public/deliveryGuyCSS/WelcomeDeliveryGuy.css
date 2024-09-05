@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.welcome-delivery-container {
+    background-color: #000; /* Pure black background */
+    min-height: 100vh;
+    background-image: url("../../src/images/delivery-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.btn-group .btn-gradient {
+    background: linear-gradient(45deg, #ff6b6b, #a76c00);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-group .btn-gradient:hover {
+    background: linear-gradient(45deg, #131212, #0be5b6);
+}
+
+.quote-container-delivery {
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.image-container {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #ffffff; 
+}
+
+.blockquote-footer {
+    font-size: 1rem;
+    color: #c61414;
+}

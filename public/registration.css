@@ -1,0 +1,84 @@
+/* Global styles */
+
+.registration-gradient {
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  background-image: url("./../src/images/registration-bg.jpg");
+  background-size: cover;
+  background-position: left left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registration-form-container {
+  background: rgba(0, 0, 0, 0.6); /* Slightly transparent background */
+  backdrop-filter: blur(10px); /* Blur effect */
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  margin: 20px auto;
+}
+
+.registration-form-container .form-label {
+  font-weight: bold;
+}
+
+.registration-form-container .form-control {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.registration-form-container .form-control:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+}
+
+.registration-form-container .input-group {
+  position: relative;
+}
+
+.registration-form-container .input-group button {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  transition: background-color 0.3s ease;
+}
+
+.registration-form-container .input-group button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.registration-form-container textarea {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  color: white;
+}
+
+.registration-form-container .btn-primary {
+  background: linear-gradient(45deg, #ff5f6d, #ffc371); /* Vibrant gradient */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.registration-form-container .btn-primary:hover {
+  background: linear-gradient(45deg, #ffc371, #ff5f6d); /* Reverse gradient on hover */
+}
+
+/* Styles for select dropdown options */
+.form-select-registration {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.form-select-registration option {
+  color: white;
+  background:black;
+}
